@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { startScheduler } = require("./scheduler");
+const { startScheduler } = require("./line");
 
 startScheduler();
 console.log("Bot started");
