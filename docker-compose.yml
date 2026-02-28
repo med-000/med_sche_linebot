@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  linebot:
+    build: .
+    container_name: sche_line_bot
+    restart: always
+    env_file:
+      - .env
